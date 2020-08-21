@@ -12,7 +12,6 @@ function sending() {
   console.log(date);
   bp = document.getElementById("bp").value;
   console.log(bp);
-  console.log(firebase.database.ref());
   // firebase.database().ref("User").set({
   //   firstname: firstname,
   //   lastname: lastname,
